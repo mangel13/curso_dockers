@@ -1,0 +1,4 @@
+
+docker run --name db_mysql -e 'MYSQL_ROOT_PASSWORD=worpress MYSQL_DATABASE=wordpress MYSQL_USER=wordpress MYSQL_PASSWORD=wordpress'  -d mysql:latest
+docker run -e 'MYSQL_ROOT_PASSWORD=wordpress  WORDPRESS_DB_PASSWORD=worpress' -d --name wordpress --link db_mysql:mysql -p 8000:80 wordpress
+
