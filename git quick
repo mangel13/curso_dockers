@@ -1,0 +1,61 @@
+echo "# proy2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mangel13/proy2.git
+git push -u origin master
+
+
+
+
+-------------------------------------------
+
+git clone /path/to/repository 
+git clone username@host:/path/to/repository
+
+
+registrar cambios
+git add .
+git add <filename>
+
+comitea
+
+git commit -m "Commit message"
+
+subir cambios
+
+git push origin master
+
+inicializar remoto
+
+git remote add origin <server>
+
+ramas
+
+git checkout -b feature_x
+
+vuelve a la rama principal
+
+git checkout master
+
+borrar rama
+
+git branch -d feature_x
+
+subir la ramaa
+
+
+git push origin <branch>
+
+actualizar con la ultima
+
+git pull
+
+para fusionar una rama
+
+git merge <branch>
+
+git diff <source_branch> <target_branch>
+
+
+
